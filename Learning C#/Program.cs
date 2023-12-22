@@ -43,4 +43,43 @@ Console.WriteLine(true);
 Console.WriteLine(false);
 //They give you the 'bools', as you can see.
 //C# is believed, by their designers, to help developers avoid software bugs by
-//enforcing data types, a concept that will unfold as we learn more about C#.
+//enforcing data types, a concept that will unfold as we learn more about C#.\
+//-----------------------------------------Declare variables
+string firstName;
+//In this case, you're creating a variable of the type string called firstName.
+//Variable name can contain alphanumric characters and underscore. Special
+//characters like the hash symbol or the dollar symbol are not allowed.
+//Variable names begin with a alphabetical letter or an underscore, but
+//not a number. And, for the last part, they can not be a C# keyword like
+// decimal, string, bool, and so on.
+//Variables should be camel case: string thisIsACamelCaseVariable.
+//Let's attribute the first variable:
+firstName = "Bob";
+//To retrieve the data in the variable, we can use the method WriteLine or Write to view it.
+Console.WriteLine(firstName);
+//We can also reassign the variable as many time as we want.
+Console.WriteLine(firstName);
+firstName = "Liem";
+Console.WriteLine(firstName);
+firstName = "Isabella";
+Console.WriteLine(firstName);
+firstName = "Yasmin";
+Console.WriteLine(firstName);
+//We can also assign the variable on the same line like this:
+string secondName = "Bazinga";
+Console.WriteLine(secondName);
+//------------------ Implicitly typed local variables
+//We can use the keyword 'var' to create a string "var message = "Hello World"
+//and it will act as a string type of data, but if you try to change it
+//it will give you an error, for example, if you try to change it to decimal
+//the compiler will tell that you cannot implicitly convert type 'decimal' to 'string'
+//Also, all the implicitly typed local variables must be initialized in loco:
+var message = "This is a message";
+//Like this.
+Console.WriteLine(message);
+//-------------------------Display literal and variable values
+var name = "Bob";
+int number = 3;
+float numberTwo = 34.4F;
+Console.Write("Hello, " + name +  "! You have " + number + " messages in your inbox. The temperature is " + numberTwo + " celsius.\n");
+//Like this
