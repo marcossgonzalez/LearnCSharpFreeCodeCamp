@@ -37,3 +37,10 @@ Console.WriteLine(3.141516);
 Console.WriteLine(12.38781723723427M);
 //This will give you a decimal, the highest precision type of decimal literal.
 //Notice like how they all give you a new-line "\n" after outputing it.
+//------------------------------Booleans
+//We can alse deal with booleans: true or false. They are called bool literal, as follows:
+Console.WriteLine(true);
+Console.WriteLine(false);
+//They give you the 'bools', as you can see.
+//C# is believed, by their designers, to help developers avoid software bugs by
+//enforcing data types, a concept that will unfold as we learn more about C#.
