@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "YWKRNQ3wvc+WmlkRgL9GzMpBuxbM8dcX/eU6nGICNxkuATmsFzK5tAXdnj6NVj9CqVT9fFOB6Ci1voBVRkTtgQ==",
+  "dgSpecHash": "wni5a4//9a/kl0w3Y2WTHX4iDL0E3KZpehML3uhCxu3gkfZG0HdZJWGXM6d+AOWwEGkIwUAI8h5tAMeM+2/cUA==",
   "success": true,
-  "projectFilePath": "G:\\Projetos\\Learning C#\\Learning C#.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "E:\\Projects\\Front-End\\LearnCSharpFreeCodeCamp\\Learning C#\\Learning C#.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Marcos Gonzalez\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.18\\microsoft.netcore.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\Marcos Gonzalez\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.18\\microsoft.windowsdesktop.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\Marcos Gonzalez\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.18\\microsoft.aspnetcore.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\Marcos Gonzalez\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.18\\microsoft.netcore.app.host.win-x64.7.0.18.nupkg.sha512"
+  ],
   "logs": []
 }
